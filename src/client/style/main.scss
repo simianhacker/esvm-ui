@@ -1,0 +1,36 @@
+@import 'includes/_reset.scss';
+$gray-darkest: lighten(black, 20%);
+$gray-darker: lighten(black, 30%);
+$gray-dark: lighten(black, 40%);
+$gray: lighten(black, 50%);
+$gray-light: lighten(black, 60%);
+$gray-lighter: lighten(black, 70%);
+$gray-lightest: lighten(black, 80%);
+
+body, html {
+  background-color: $gray-darkest;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav {
+
+  padding: 25px 15px;
+  display: flex;
+  background-color: $gray-dark;
+  align-items: center;
+
+  .logo {
+    font-family: Courier;
+    font-size: 1.6em;
+    color: white;
+    padding-right: 15px;
+    border-right: 1px solid $gray;
+  }
+
+
+  .nav-item {
+    padding: 0 15px;
+    color: white;
+  }
+}

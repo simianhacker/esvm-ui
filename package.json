@@ -1,0 +1,56 @@
+{
+  "name": "esvm-ui",
+  "version": "1.0.0",
+  "description": "A UI for ESVM",
+  "main": "dist/index.js",
+  "files": [ "dist" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simianhacker/esvm-ui.git"
+  },
+  "keywords": [
+    "esvm",
+    "libesvm",
+    "elasticsearch",
+    "ui"
+  ],
+  "author": "Chris Cowan (chris@chriscowan.us)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simianhacker/esvm-ui/issues"
+  },
+  "homepage": "https://github.com/simianhacker/esvm-ui#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
+    "babel-preset-es2015": "^6.6.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "glob": "^7.0.3",
+    "hapi": "^13.2.1",
+    "inert": "^3.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
